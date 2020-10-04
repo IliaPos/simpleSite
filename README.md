@@ -1,2 +1,3 @@
 # simpleSite
-Html + CSS + JS
+Html + CSS + JS.
+A simple website by PSD layout
