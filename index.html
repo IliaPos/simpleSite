@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -18,7 +20,7 @@
                 <div class="header__contacts">
                     <a class="header__phone" href="tel:4201234567899">+420 (123) 456 78 99</a>
                     <a class="header__email" href="#">test123456@seznam.cz</a>
-                    <a class="header__btn" href="#">Бесплатная консультация</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn">Бесплатная консультация</a>
                 </div>
             </div>
 
@@ -43,6 +45,82 @@
             </div>
         </div>
     </header>
+
+    <section class="slider">
+        <div class="container">
+            <div class="slider__inner">
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+                        </div>
+                        <div class="slider__text">
+                            Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                  Оставить заявку
+                </a>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+                        </div>
+                        <div class="slider__text">
+                            Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                  Оставить заявку
+                </a>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+                        </div>
+                        <div class="slider__text">
+                            Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                  Оставить заявку
+                </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__top">
+                <div class="about__title-box">
+                    <div class="about-title">
+                        Наши Услуги
+                    </div>
+                    <div class="about__text">
+                        Комплексный подход к вашему вопросу, своевременная правовую помощь, представление интересов во всех судебных инстанциях.
+                    </div>
+                </div>
+                <div class="about__btn">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="modal">
+        <h2>Hello!</h2>
+        <p>You are awesome!</p>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
